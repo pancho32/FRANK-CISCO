@@ -17,7 +17,7 @@ class UsersController extends AppController
      *
      * @return void
      */
-    public function index()
+    public function indexx()
     {
         $this->set('users', $this->paginate($this->Users));
         $this->set('_serialize', ['users']);
